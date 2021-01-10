@@ -239,3 +239,18 @@ section {
         z-index: 2;
     }
 }
+
+.figure {
+    height: 400px;
+    width: 350px;
+}
+
+.figure-caption {
+    color: #cabf45;
+    text-align: center;
+}
+
+.nav-link {
+    font-size: 25px;
+    color: white;
+}
