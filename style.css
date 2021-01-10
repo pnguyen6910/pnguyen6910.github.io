@@ -254,3 +254,7 @@ section {
     font-size: 25px;
     color: white;
 }
+
+.big-text {
+    font-size: 20px;
+}
