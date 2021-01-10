@@ -608,3 +608,8 @@ textarea.input {
     padding: 0.45rem 1.2rem;
   }
 }
+
+.nav-link {
+  font-size: 25px;
+  color: white;
+}
