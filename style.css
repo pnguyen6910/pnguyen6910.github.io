@@ -276,3 +276,13 @@ section {
     max-width: 100px;
     background-color: #cabf45;
 }
+
+.sidePicture {
+    width: 100px;
+    float: right;
+    position: absolute;
+}
+
+.my-work {
+    text-align: center;
+}
