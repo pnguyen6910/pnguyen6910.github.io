@@ -5,14 +5,15 @@
 }
 
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
 body {
-	  background:#2d3b36 url("assets/moonbackground.jpg");
-  	-webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;
-    padding-top: 0px;
-    color: white;
+  background: #2d3b36 url("assets/moonbackground.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 0px;
+  color: white;
 }
 
 :root {
@@ -21,7 +22,7 @@ body {
 
   --fw-reg: 300;
   --fw-bold: 900;
-  
+
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
   --fs-h3: 1.25rem;
@@ -31,15 +32,15 @@ body {
   --clr-dark: #303030;
   --clr-accent: #cabf45;
 
-  --bs: 0.25em 0.25em 0.75em rgba(o,o,o,.25), 0.125em 0.125em 0.25 rgba(0,0,0,.15);
+  --bs: 0.25em 0.25em 0.75em rgba(o, o, o, .25), 0.125em 0.125em 0.25 rgba(0, 0, 0, .15);
 }
 
 @media (min-width 800px) {
   :root {
-      --fs-h1: 4.5rem;
-      --fs-h2: 3.75rem;
-      --fs-h3: 1.5rem;
-      --fs-body: 1.125rem;
+    --fs-h1: 4.5rem;
+    --fs-h2: 3.75rem;
+    --fs-h3: 1.5rem;
+    --fs-body: 1.125rem;
   }
 }
 

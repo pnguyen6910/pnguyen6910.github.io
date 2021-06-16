@@ -10,7 +10,7 @@
 
     --fw-reg: 300;
     --fw-bold: 900;
-    
+
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
     --fs-h3: 1.25rem;
@@ -20,7 +20,7 @@
     --clr-dark: #303030;
     --clr-accent: #cabf45;
 
-    --bs: 0.25em 0.25em 0.75em rgba(o,o,o,.25), 0.125em 0.125em 0.25 rgba(0,0,0,.15);
+    --bs: 0.25em 0.25em 0.75em rgba(o, o, o, .25), 0.125em 0.125em 0.25 rgba(0, 0, 0, .15);
 }
 
 @media (min-width 800px) {
@@ -68,19 +68,28 @@ img {
     outline: 3px solid var(--clr-accent);
     outline-offset: 3px;
 }
+
 /* typography */
 
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     line-height: 1.1;
     margin: 0;
 }
 
-h1 { font-size: var(--fs-h1) }
+h1 {
+    font-size: var(--fs-h1)
+}
 
-h2 { font-size: var(--fs-h2) }
+h2 {
+    font-size: var(--fs-h2)
+}
 
-h3 { font-size: var(--fs-h3) }
+h3 {
+    font-size: var(--fs-h3)
+}
 
 
 .section__title {
@@ -109,7 +118,8 @@ section {
     font-size: var(--fs-h3);
 }
 
-.section__subtitle--intro, .section__subtitle--about {
+.section__subtitle--intro,
+.section__subtitle--about {
     font-family: var(--ff-secondary);
     background: var(--clr-accent);
     margin-bottom: 1em;
@@ -128,7 +138,7 @@ section {
         width: min-content;
         margin: 0 auto;
         grid-column-gap: 1em;
-        grid-template-areas: "img title" "img subtitle";
+        grid-template-areas: "img title""img subtitle";
         grid-template-columns: min-content max-content;
     }
 
@@ -148,7 +158,7 @@ section {
         left: -1.5em;
         width: calc(100% + 1.5em);
     }
-    
+
 }
 
 /* what i do */
@@ -158,7 +168,7 @@ section {
     color: var(--clr-light);
     background-image: url(assets/battlestation.jpg);
     background-size: cover;
-    background-blend-mode: multiply; 
+    background-blend-mode: multiply;
     text-align: center;
 }
 
@@ -194,10 +204,10 @@ section {
         margin-right: auto;
     }
 
-    .service + .service {
+    .service+.service {
         margin-left: 2em;
     }
-    
+
 }
 
 /* about me */
@@ -215,7 +225,7 @@ section {
     .about-me {
         display: grid;
         grid-template-columns: 1fr 200px;
-        grid-template-areas: "title img" "subtitle img" "text img";
+        grid-template-areas: "title img""subtitle img""text img";
         grid-column-gap: 2em;
     }
 
@@ -263,5 +273,5 @@ section {
     color: white;
     text-align: center;
     max-width: 100px;
-    background-color: #cabf45    ;
+    background-color: #cabf45;
 }
